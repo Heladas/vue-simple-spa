@@ -1,17 +1,14 @@
-# vue-simple-spa
+<h3>Build Setup</h3>
 
-## Build Setup
-# install dependencies
+<div class="highlight highlight-source-shell">
+<pre>
+<span class="pl-c"><span class="pl-c">#</span> install dependencies</span>
 npm install
-
-# serve with hot reload at localhost:8080
+<br>
+<span class="pl-c"><span class="pl-c">#</span> serve with hot reload at localhost:8080</span>
 npm run dev
-
-# build for production with minification
+<br>
+<span class="pl-c"><span class="pl-c">#</span> build for production with minification</span>
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+</pre>
+</div>
