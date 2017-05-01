@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  background: white;
+  box-shadow: 3px 3px 1px rgba(0,0,0,.05);
+  padding: 15px 0;
+  margin-bottom: 30px;
+  position: relative;
+  background-color: darksalmon;
+  
+  .logo{
+    width:200px;
+    height: 30px;
+    float: left;
+    background: firebrick;
+    margin-left: 5%;
+  }
+  h3{
+    margin-left: 5%;
+    float: left;
+  }
+  .searchform{
+    display: block;
+    margin-left: 5%;
+    float: left;
+  }
+  .title{
+    float: left;
+  }
+  .menu{
+    float: right;
+  }
+}
