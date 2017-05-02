@@ -3,10 +3,9 @@ header {
   background: white;
   box-shadow: 3px 3px 1px rgba(0,0,0,.05);
   padding: 15px 0;
-  margin-bottom: 30px;
   position: relative;
   background-color: darksalmon;
-  
+
   .logo{
     width:200px;
     height: 30px;
@@ -26,7 +25,16 @@ header {
   .title{
     float: left;
   }
+
   .menu{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:firebrick;
+    color: #ffffff;
     float: right;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 20px;
   }
 }
