@@ -1,17 +1,60 @@
 <template>
-  <div id="app">
-    <!-- the router outlet, where all matched components would ber viewed -->
-    <router-link v-bind:to="'/'">Home</router-link>
-    <router-link v-bind:to="'/about'">About</router-link>
-    <router-link v-bind:to="'/contacts'">Contacts</router-link>
-    <router-view></router-view>
+  <div>
+    <header-block></header-block>
+    <widgets-list  v-bind:widgetsList="widgets"></widgets-list>
+
+    <footer></footer>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+
+  import WidgetsList from './components/widgetsList/WidgetsList.vue'
+  import HeaderBlock from './components/headerBlock/HeaderBlock.vue'
+
+  export default {
+    name: 'app',
+    components: {
+      WidgetsList,
+      HeaderBlock
+    },
+    data () {
+      return {
+        widgets: [
+          {
+            id: 1,
+            title: 'Widget A',
+            done: true,
+            color: '#3498db'
+          },
+          {
+            id: 2,
+            title: 'Widget B',
+            done: true,
+            color: '#3498db'
+          },
+          {
+            id: 3,
+            title: 'Widget C',
+            done: true,
+            color: '#3498db'
+          },
+          {
+            id: 4,
+            title: 'Widget D',
+            done: true,
+            color: '#3498db'
+          },
+          {
+            id: 5,
+            title: 'Widget E',
+            done: true,
+            color: '#3498db'
+          }
+        ]
+      }
+    }
+  }
 </script>
 
 <style>
